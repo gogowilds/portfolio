@@ -1,0 +1,28 @@
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+.top-wrapper{
+  padding:180px 0 100px 0;
+}
+
+.container{
+  padding:0 15px;
+  text-align: center;
+}
+
+.profile-wrapper{
+  padding:10px 10px;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+.face{
+  width:25%;
+  height:25%;
+  border-radius: 50%;
+}
