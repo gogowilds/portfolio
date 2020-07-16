@@ -1,28 +1,166 @@
-body {
-  font-family: "Helvetica Neue",
-    Arial,
-    "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans",
-    Meiryo,
-    sans-serif;
+element.style {
+  ：;
 }
 
-.top-wrapper{
-  padding:180px 0 100px 0;
+
+.style{
+  margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+  }
+
+
+.head{
+  display: none;
 }
 
-.container{
-  padding:0 15px;
+.wrapper {
+    padding-top: 68px;
+}
+.gnav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.gnav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav ul {
+    list-style: none;
+}
+
+.gnav li {
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    padding: 0 24px;
+    letter-spacing: .05em;
+}
+.ul, li {
+    list-style: none;
+}
+., .:before, .:after {
+    box-sizing: border-box;
+}
+.li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.gnav li a {
+    position: relative;
+    display: inline-block;
+    padding: 20px 0;
+    transition: .3s;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86vh;
+}
+.body{
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    line-height: 1.8;
+    letter-spacing: .8px;
+    word-break: break-all;
+    color: #333;
+}
+.header .logo {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+}
+main {
+    display: block;
+}
+.section:nth-of-type(odd) {
+    background-color: #f7f7f7;
+}
+.section {
+    padding: 100px 0;
+}
+.section-title-area {
+    margin-bottom: 38px;
+    text-align: center;
+}
+.section-title {
+    font-family: "Open sans", sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: .05em;
+}
+
+
+.header-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 86vh;
+}
+
+.header-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-list ul li {
+  list-style: none;
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+  padding: 0 24px;
+  letter-spacing: .05em;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+}
+
+.container {
+  padding: 0 15px;
   text-align: center;
 }
 
-.profile-wrapper{
-  padding:10px 10px;
+
+
+.header-logo h1 {
+  font-family: "Open sans", sans-serif;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: .2em;
+}
+
+.profile-wrapper {
+  padding: 10px 10px;
   text-align: center;
   background-color: #EEEEEE;
 }
-.face{
-  width:25%;
-  height:25%;
+
+.face {
+  width: 25%;
+  height: 25%;
   border-radius: 50%;
+}
+
+.message-wrapper {
+  text-align: center;
 }
