@@ -482,10 +482,10 @@ li {
   color: #8c8c8c;
 }
 
-/*media Queries 767
+/*media Queries 670
 ----------------------------------------------------*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 670px) {
   body {
     font-size: 13px;
     line-height: 1.7;
